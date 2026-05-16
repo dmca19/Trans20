@@ -10,19 +10,19 @@ importers:
     dependencies:
       '@byteland/ink-scroll-bar':
         specifier: 1.0.0
-        version: 1.0.0(ink@7.0.1(@types/react@19.2.14)(react@19.2.5))(react@19.2.5)
+        version: 1.0.0(ink@7.0.3(@types/react@19.2.14)(react@19.2.5))(react@19.2.5)
       '@inquirer/prompts':
         specifier: ^8.4.2
         version: 8.4.2(@types/node@25.6.0)
       '@langchain/core':
         specifier: ^1.1.41
-        version: 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)
+        version: 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)
       '@langchain/langgraph':
         specifier: ^1.2.9
-        version: 1.2.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))(react@19.2.5)(zod@4.3.6)
+        version: 1.2.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))(react@19.2.5)(zod@4.3.6)
       '@langchain/openai':
         specifier: ^1.4.4
-        version: 1.4.4(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))(ws@8.20.0)
+        version: 1.4.4(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))(ws@8.20.1)
       '@mediapipe/tasks-text':
         specifier: ^0.10.35
         version: 0.10.35
@@ -39,11 +39,11 @@ importers:
         specifier: ^12.0.0
         version: 12.0.0
       ink:
-        specifier: ^7.0.1
-        version: 7.0.1(@types/react@19.2.14)(react@19.2.5)
+        specifier: ^7.0.3
+        version: 7.0.3(@types/react@19.2.14)(react@19.2.5)
       ink-scroll-view:
         specifier: 0.3.7
-        version: 0.3.7(ink@7.0.1(@types/react@19.2.14)(react@19.2.5))(react@19.2.5)
+        version: 0.3.7(ink@7.0.3(@types/react@19.2.14)(react@19.2.5))(react@19.2.5)
       kuromoji:
         specifier: ^0.1.2
         version: 0.1.2
@@ -851,8 +851,8 @@ packages:
     resolution: {integrity: sha512-xUtoPkMggbz0MPyPiIWr1Kp4aeWJjDZ6SMvURhimjdZgsRuDplF5/s9hcgGhyXMhs+6vpnuoiZ2kFiu3FMnS8Q==}
     engines: {node: '>=18'}
 
-  es-toolkit@1.46.0:
-    resolution: {integrity: sha512-IToJ6ct9OLl5zz6WsC/1vZEwfSZ7Myil+ygl5Tf30Xjn9AEkzNB4kqp2G7VUJKF1DtTx/ra5M5KLlXvzOg51BA==}
+  es-toolkit@1.46.1:
+    resolution: {integrity: sha512-5eNtXOs3tbfxXOj04tjjseeWkRWaoCjdEI+96DgwzZoe6c9juL49pXlzAFTI72aWC9Y8p7168g6XIKjh7k6pyQ==}
 
   esbuild@0.27.7:
     resolution: {integrity: sha512-IxpibTjyVnmrIQo5aqNpCgoACA/dTKLTlhMHihVHhdkxKyPO1uBBthumT0rdHmcsk9uMonIWS0m4FljWzILh3w==}
@@ -992,6 +992,10 @@ packages:
     resolution: {integrity: sha512-CQ+bEO+Tva/qlmw24dCejulK5pMzVnUOFOijVogd3KQs07HnRIgp8TGipvCCRT06xeYEbpbgwaCxglFyiuIcmA==}
     engines: {node: '>=18'}
 
+  get-east-asian-width@1.6.0:
+    resolution: {integrity: sha512-QRbvDIbx6YklUe6RxeTeleMR0yv3cYH6PsPZHcnVn7xv7zO1BHN8r0XETu8n6Ye3Q+ahtSarc3WgtNWmehIBfA==}
+    engines: {node: '>=18'}
+
   get-tsconfig@4.14.0:
     resolution: {integrity: sha512-yTb+8DXzDREzgvYmh6s9vHsSVCHeC0G3PI5bEXNBHtmshPnO+S5O7qgLEOn0I5QvMy6kpZN8K1NKGyilLb93wA==}
 
@@ -1039,8 +1043,8 @@ packages:
       ink: ^5 || ^6 || ^7
       react: ^18 || ^19
 
-  ink@7.0.1:
-    resolution: {integrity: sha512-o6LAC268PLawlGVYrXTyaTfke4VtJftEheuwbgkQf7yvSXyWp1nRwBbAyKEkWXFZZsW/la5wrMuNbuBvZK2C1w==}
+  ink@7.0.3:
+    resolution: {integrity: sha512-5kxHkIj9+RuqCU3zyvP4qvYWNOSHP2TW/SHayHGHOmk87KwfVcZwvJGemi9ch+ci2gXUqerK/Eh2DGEDt5q45g==}
     engines: {node: '>=22'}
     peerDependencies:
       '@types/react': '>=19.2.0'
@@ -1370,6 +1374,7 @@ packages:
 
   uuid@10.0.0:
     resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   uuid@11.1.0:
@@ -1401,8 +1406,8 @@ packages:
     resolution: {integrity: sha512-OTIk8iR8/aCRWBqvxrzxR0hgxWpnYBblY1S5hDWBQfk/VFmJwzmJgQFN3WsoUKHISv2eAwe+PpbUzyL1CKTLXg==}
     engines: {node: ^20.17.0 || >=22.9.0}
 
-  ws@8.20.0:
-    resolution: {integrity: sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==}
+  ws@8.20.1:
+    resolution: {integrity: sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -1542,9 +1547,9 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@byteland/ink-scroll-bar@1.0.0(ink@7.0.1(@types/react@19.2.14)(react@19.2.5))(react@19.2.5)':
+  '@byteland/ink-scroll-bar@1.0.0(ink@7.0.3(@types/react@19.2.14)(react@19.2.5))(react@19.2.5)':
     dependencies:
-      ink: 7.0.1(@types/react@19.2.14)(react@19.2.5)
+      ink: 7.0.3(@types/react@19.2.14)(react@19.2.5)
       react: 19.2.5
 
   '@cfworker/json-schema@4.1.1': {}
@@ -1815,7 +1820,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)':
+  '@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       '@standard-schema/spec': 1.1.0
@@ -1823,7 +1828,7 @@ snapshots:
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.21
-      langsmith: 0.5.25(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)
+      langsmith: 0.5.25(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)
       mustache: 4.2.0
       p-queue: 6.6.2
       uuid: 11.1.0
@@ -1835,26 +1840,26 @@ snapshots:
       - openai
       - ws
 
-  '@langchain/langgraph-checkpoint@1.0.1(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))':
+  '@langchain/langgraph-checkpoint@1.0.1(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))':
     dependencies:
-      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)
+      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)
       uuid: 10.0.0
 
-  '@langchain/langgraph-sdk@1.8.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))(react@19.2.5)':
+  '@langchain/langgraph-sdk@1.8.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))(react@19.2.5)':
     dependencies:
       '@types/json-schema': 7.0.15
       p-queue: 9.2.0
       p-retry: 7.1.1
       uuid: 13.0.0
     optionalDependencies:
-      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)
+      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)
       react: 19.2.5
 
-  '@langchain/langgraph@1.2.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))(react@19.2.5)(zod@4.3.6)':
+  '@langchain/langgraph@1.2.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))(react@19.2.5)(zod@4.3.6)':
     dependencies:
-      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)
-      '@langchain/langgraph-checkpoint': 1.0.1(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))
-      '@langchain/langgraph-sdk': 1.8.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))(react@19.2.5)
+      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)
+      '@langchain/langgraph-checkpoint': 1.0.1(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))
+      '@langchain/langgraph-sdk': 1.8.9(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))(react@19.2.5)
       '@standard-schema/spec': 1.1.0
       uuid: 10.0.0
       zod: 4.3.6
@@ -1864,11 +1869,11 @@ snapshots:
       - svelte
       - vue
 
-  '@langchain/openai@1.4.4(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0))(ws@8.20.0)':
+  '@langchain/openai@1.4.4(@langchain/core@1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1))(ws@8.20.1)':
     dependencies:
-      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0)
+      '@langchain/core': 1.1.41(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1)
       js-tiktoken: 1.0.21
-      openai: 6.34.0(ws@8.20.0)(zod@4.3.6)
+      openai: 6.34.0(ws@8.20.1)(zod@4.3.6)
       zod: 4.3.6
     transitivePeerDependencies:
       - ws
@@ -2125,7 +2130,7 @@ snapshots:
 
   environment@1.1.0: {}
 
-  es-toolkit@1.46.0: {}
+  es-toolkit@1.46.1: {}
 
   esbuild@0.27.7:
     optionalDependencies:
@@ -2294,6 +2299,8 @@ snapshots:
 
   get-east-asian-width@1.5.0: {}
 
+  get-east-asian-width@1.6.0: {}
+
   get-tsconfig@4.14.0:
     dependencies:
       resolve-pkg-maps: 1.0.0
@@ -2329,12 +2336,12 @@ snapshots:
 
   indent-string@5.0.0: {}
 
-  ink-scroll-view@0.3.7(ink@7.0.1(@types/react@19.2.14)(react@19.2.5))(react@19.2.5):
+  ink-scroll-view@0.3.7(ink@7.0.3(@types/react@19.2.14)(react@19.2.5))(react@19.2.5):
     dependencies:
-      ink: 7.0.1(@types/react@19.2.14)(react@19.2.5)
+      ink: 7.0.3(@types/react@19.2.14)(react@19.2.5)
       react: 19.2.5
 
-  ink@7.0.1(@types/react@19.2.14)(react@19.2.5):
+  ink@7.0.3(@types/react@19.2.14)(react@19.2.5):
     dependencies:
       '@alcalzone/ansi-tokenize': 0.3.0
       ansi-escapes: 7.3.0
@@ -2345,7 +2352,7 @@ snapshots:
       cli-cursor: 4.0.0
       cli-truncate: 6.0.0
       code-excerpt: 4.0.0
-      es-toolkit: 1.46.0
+      es-toolkit: 1.46.1
       indent-string: 5.0.0
       is-in-ci: 2.0.0
       patch-console: 2.0.0
@@ -2360,7 +2367,7 @@ snapshots:
       type-fest: 5.6.0
       widest-line: 6.0.0
       wrap-ansi: 10.0.0
-      ws: 8.20.0
+      ws: 8.20.1
       yoga-layout: 3.2.1
     optionalDependencies:
       '@types/react': 19.2.14
@@ -2372,7 +2379,7 @@ snapshots:
 
   is-fullwidth-code-point@5.1.0:
     dependencies:
-      get-east-asian-width: 1.5.0
+      get-east-asian-width: 1.6.0
 
   is-glob@4.0.3:
     dependencies:
@@ -2410,13 +2417,13 @@ snapshots:
       doublearray: 0.0.2
       zlibjs: 0.3.1
 
-  langsmith@0.5.25(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.0)(zod@4.3.6))(ws@8.20.0):
+  langsmith@0.5.25(@opentelemetry/api@1.9.0)(openai@6.34.0(ws@8.20.1)(zod@4.3.6))(ws@8.20.1):
     dependencies:
       p-queue: 6.6.2
     optionalDependencies:
       '@opentelemetry/api': 1.9.0
-      openai: 6.34.0(ws@8.20.0)(zod@4.3.6)
-      ws: 8.20.0
+      openai: 6.34.0(ws@8.20.1)(zod@4.3.6)
+      ws: 8.20.1
 
   levn@0.4.1:
     dependencies:
@@ -2453,9 +2460,9 @@ snapshots:
     dependencies:
       mimic-fn: 2.1.0
 
-  openai@6.34.0(ws@8.20.0)(zod@4.3.6):
+  openai@6.34.0(ws@8.20.1)(zod@4.3.6):
     optionalDependencies:
-      ws: 8.20.0
+      ws: 8.20.1
       zod: 4.3.6
 
   optionator@0.9.4:
@@ -2642,7 +2649,7 @@ snapshots:
     dependencies:
       signal-exit: 4.1.0
 
-  ws@8.20.0: {}
+  ws@8.20.1: {}
 
   yallist@3.1.1: {}
 

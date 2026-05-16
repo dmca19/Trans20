@@ -27,7 +27,7 @@
     "commander": "^14.0.3",
     "fastest-levenshtein": "1.0.16",
     "htmlparser2": "^12.0.0",
-    "ink": "^7.0.1",
+    "ink": "^7.0.3",
     "ink-scroll-view": "0.3.7",
     "kuromoji": "^0.1.2",
     "react": "^19.2.5",
