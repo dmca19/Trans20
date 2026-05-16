@@ -30,7 +30,7 @@
     "ink": "^7.0.1",
     "ink-scroll-view": "0.3.7",
     "kuromoji": "^0.1.2",
-    "react": "^19.2.5",
+    "react": "^19.2.6",
     "string-width": "^8.2.1",
     "wrap-ansi": "^10.0.0",
     "write-file-atomic": "7.0.1",
