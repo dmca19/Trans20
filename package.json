@@ -40,7 +40,7 @@
     "@eslint/js": "10.0.1",
     "@stylistic/eslint-plugin": "5.10.0",
     "@types/kuromoji": "^0.1.3",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.8.0",
     "@types/react": "^19.2.14",
     "@types/write-file-atomic": "4.0.3",
     "eslint": "10.4.0",
