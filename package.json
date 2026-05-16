@@ -19,7 +19,7 @@
   "dependencies": {
     "@byteland/ink-scroll-bar": "1.0.0",
     "@inquirer/prompts": "^8.4.2",
-    "@langchain/core": "^1.1.41",
+    "@langchain/core": "^1.1.46",
     "@langchain/langgraph": "^1.2.9",
     "@langchain/openai": "^1.4.4",
     "@mediapipe/tasks-text": "^0.10.35",
