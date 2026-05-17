@@ -1,0 +1,10 @@
+{
+  "embeddedLanguageFormatting": "off",
+  "endOfLine": "lf",
+  "printWidth": 120,
+  "proseWrap": "preserve",
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
